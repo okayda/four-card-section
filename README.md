@@ -12,11 +12,12 @@ Users should be able to:
 
 ## Links
 
-- [Solution URL](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5)
-- [Live Site URL](https://jhon-okayda-manage-landing-page.netlify.app/)
+- [Solution URL](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
+- [Live Site URL](https://jhon-okayda-four-grid-section.netlify.app/)
 
 ## Built with
 
+- Mobile-first (Layout)
 - React JS
 - SCSS
 - BEM
