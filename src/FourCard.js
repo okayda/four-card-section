@@ -20,37 +20,37 @@ const FourCard = function () {
       </div>
 
       <div className={style.card__boxes}>
-        <div className={style.card__supervisor}>
+        <article className={style.card__supervisor}>
           <h2 className={style.card__box_title}>Supervisor</h2>
           <p className={style.card__box_description}>
             Monitors activity to identify project roadblocks
           </p>
           <img src={supervisorIcon} alt="" />
-        </div>
+        </article>
 
-        <div className={style.card__builder}>
+        <article className={style.card__builder}>
           <h2 className={style.card__box_title}>Team Builder</h2>
           <p className={style.card__box_description}>
             Scans our talent network to create the optimal team for your project
           </p>
           <img src={builderIcon} alt="" />
-        </div>
+        </article>
 
-        <div className={style.card__karma}>
+        <article className={style.card__karma}>
           <h2 className={style.card__box_title}>Karma</h2>
           <p className={style.card__box_description}>
             Regularly evaluates our talent to ensure quality
           </p>
           <img src={karmaIcon} alt="" />
-        </div>
+        </article>
 
-        <div className={style.card__calculator}>
+        <article className={style.card__calculator}>
           <h2 className={style.card__box_title}>Calculator</h2>
           <p className={style.card__box_description}>
             Uses data from past projects to provid better delivery estimates
           </p>
           <img src={calculatorIcon} alt="" />
-        </div>
+        </article>
       </div>
     </section>
   );

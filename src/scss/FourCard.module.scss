@@ -38,19 +38,19 @@
     grid-template-columns: 1fr;
     gap: 3rem;
 
-    & > div {
+    & > article {
       @include columnSpace(1rem);
 
       max-width: 33rem;
       padding: 3rem 2rem;
-      border-radius: 9px;
+      border-radius: 6px;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
         rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
       img {
         align-self: flex-end;
-        height: 50px;
-        width: 50px;
+        height: 5rem;
+        width: 5rem;
       }
     }
   }
