@@ -25,7 +25,7 @@ const FourCard = function () {
           <p className={style.card__box_description}>
             Monitors activity to identify project roadblocks
           </p>
-          <img src={supervisorIcon} />
+          <img src={supervisorIcon} alt="" />
         </div>
 
         <div className={style.card__builder}>
@@ -33,7 +33,7 @@ const FourCard = function () {
           <p className={style.card__box_description}>
             Scans our talent network to create the optimal team for your project
           </p>
-          <img src={builderIcon} />
+          <img src={builderIcon} alt="" />
         </div>
 
         <div className={style.card__karma}>
@@ -41,7 +41,7 @@ const FourCard = function () {
           <p className={style.card__box_description}>
             Regularly evaluates our talent to ensure quality
           </p>
-          <img src={karmaIcon} />
+          <img src={karmaIcon} alt="" />
         </div>
 
         <div className={style.card__calculator}>
@@ -49,7 +49,7 @@ const FourCard = function () {
           <p className={style.card__box_description}>
             Uses data from past projects to provid better delivery estimates
           </p>
-          <img src={calculatorIcon} />
+          <img src={calculatorIcon} alt="" />
         </div>
       </div>
     </section>
